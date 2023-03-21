@@ -20,11 +20,11 @@ public class CloneExp {
 
         print.info("\nEnter 2nd points: \n");
         print.info("\nEnter X : ");
-        int A = sc.nextInt();
+        int a = sc.nextInt();
         print.info(" Enter Y : ");
-        int B = sc.nextInt();
+        int b = sc.nextInt();
 
-        boolean ans = ob1.equals(A, B);
+        boolean ans = ob1.equals(a, b);
 
         print.log(Level.INFO, () ->(" the both points are " + (ans ? "same" : "not same")));
 
